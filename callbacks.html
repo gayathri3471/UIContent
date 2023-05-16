@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            transition: transform 1s ease-in-out;
+            
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div class="box" id="smallbox">
+
+    </div>
+    <h1 id="num">
+        0
+
+    </h1>
+
+
+
+    <script>
+        let box = document.getElementById('smallbox');
+        let number = document.getElementById('num');
+       
+        count=0;
+        let numberincrement = setInterval(function (){
+            count+=1
+            number.textContent=count;
+
+
+            if(count===3){
+                clearInterval(numberincrement);
+             }
+          
+
+        }
+        ,
+         1000);
+
+         let angle =0
+
+         let boxrotate = setInterval(function(){
+            angle+=60;
+            box.style.transform = `rotate(${angle}deg)`;
+
+            if(angle ===360){
+                clearInterval(boxrotate);
+            }
+
+         },1000)
+         
+         
+      
+       
+    </script>
+</body>
+</html>

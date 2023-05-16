@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational website project</title>
+    <link rel="stylesheet" href="Educationalwebsite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav >
+            <h1 id="logo">TRAINEE SYSTEM <i class="fa-solid fa-graduation-cap"></i></h1>
+            <div id="listelemets">
+                <a href="">Home</a>
+                <a href="">Login</a>
+                <a href="">Register</a>
+                <a href="#formcontainer">Query</a>
+            </div>
+        </nav>
+</header>
+
+
+<main>
+    <section id="intro">
+
+        <h1 id="quote">"Education is not Preparation for Life,Education is Life itself."</h1>
+
+       
+    </section>
+
+
+    <section id="formcontainer">
+        <section class="formsection">
+            
+            <form action="">
+                <h1 class="querybox">Query Box</h1>
+
+                <input type="text" placeholder="First Name" >
+                <input type="text" placeholder="Lastname">
+                <input type="email" placeholder="Email">
+               <label for="">language</label>
+                <select name="" id="">
+                    <option value="">Python</option>
+                    <option value="">UI</option>
+                    <option value="">SQL</option>
+                    <option value="">Django</option>
+                </select>
+                <br>
+
+                <label for="">Post Your Question</label>
+                <textarea name="" id="" cols="50" rows="10" >
+
+                </textarea>
+
+            <input type="submit" id="submitbtn" >
+
+            </form>
+        </section>
+    </section>
+
+ 
+
+
+    
+  
+</main>
+
+
+<footer class="footersection">
+    <h1 >2023@Copyright</h1>
+
+    <h1 >whatsapp <i class="fa-brands fa-whatsapp"></i></h1>
+    <h1 >Facebook <i class="fa-brands fa-whatsapp"></i></h1>
+
+    <h1 >Twitter <i class="fa-brands fa-whatsapp"></i></h1>
+
+
+</footer>
+
+  
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+header{
+    background-color: rgb(43, 41, 41);
+    color:white;
+    height: 110px;
+ 
+  
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#listelemets{
+    margin-left: auto;
+    padding:20px 10px;
+   
+
+    
+    
+}
+#listelemets a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin:0px 10px;
+    border:1px solid white;
+    border-radius:5px;
+    padding:5px 10px;
+   
+ 
+    
+    
+}
+#logo{
+    margin: 10px;
+    font-size:30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+
+}
+#intro{
+    background: url("images/Education1.png");
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;    
+}
+#quote{
+    color:white;
+    font-size:40px;
+    font-weight: bold;
+    height: 200px;
+    width: 500px;
+    
+    padding: 50px ;
+    padding-left: 150px ;
+    padding-top:100px;
+    text-align: center;
+}
+#listelemets a:hover{
+    background-color: grey;
+}
+#formcontainer{
+  
+   height: 600px;
+    background-color: rgb(210, 207, 207);
+  
+}
+form{
+    height: 414px;
+    width: 473px;
+    background-color:black;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.formsection {
+    
+    padding: 40px;
+   
+   
+
+}
+.querybox{
+    color:white;
+    font-size: 30px;
+    background-color: black;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+    margin:10px auto;
+   
+}
+input{
+    padding:7px;
+    margin:7px;
+    border-radius: 10px;
+    border-style: none;
+    color:black;
+    font-size: 15px;
+}
+
+::placeholder{
+    color:rgb(94, 92, 92);
+}
+label{
+    color:black;
+    margin:10px;
+}
+
+textarea{
+   margin:10px;
+}
+#submitbtn{
+    color:black;
+  margin-left:191px;
+  padding:10px 20px;
+
+}
+
+select{
+    padding:5px 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+#submitbtn:hover{
+    background-color: white;
+}
+.footersection{
+    background-color: rgb(90, 88, 88);
+    color:white;
+    text-align: center;
+    font-size: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+.footersection h1{
+    margin: 5px 10px;
+}
+
+
+
+https://www.loom.com/share/d22095d30ca14e4c97dc5ba7d3741721
+https://www.loom.com/share/836433aef3114bb388d69d0f000dee6c
+https://www.loom.com/share/ac182b2f4d624a6bb142d1f95d2013a2
+https://www.loom.com/share/056637e3073241c1a731bd65cd963549
+
+
+
+
+

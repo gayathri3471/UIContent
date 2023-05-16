@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+header{
+    background-color: rgb(51, 49, 49);
+    color:white;
+    height: 110px;
+
+}
+nav{
+    display: flex;
+    flex-direction:row;
+}
+.listelements{
+    margin-left: auto;
+    padding: 20px 10px;
+}
+.listelements a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin:0px 10px;
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.listelements a:hover{
+    background-color:grey;
+}
+#logo{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#intro{
+    background: url("images/Education1.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+#quote{
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    height: 200px;
+    width: 600px;
+    padding-left: 150px;
+    padding-top: 100px;
+    text-align: center;
+
+}
+#formcontainer{
+    height: 600px;
+    background-color: rgb(210,207,207);
+    
+}
+.formsection{
+    padding: 40px;
+
+}
+form{
+    height: 414px;
+    width: 437px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+}
+input{
+    padding: 10px;
+   margin:7px;
+   border-radius: 10px;
+   border-style: none;
+   color:black;
+   font-size: 14px;
+   
+
+}
+
+select{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+::placeholder{
+    color:grey;
+}
+label,textarea{
+    margin:10px;
+
+}
+#submitbtn{
+    margin-left:192px;
+}
+
+.footersection{
+    background-color: rgb(67, 65, 65);
+    color:rgb(214, 207, 207);
+    font-size: 10px;
+    display: flex;
+    height: 80px;
+    padding:10px 20px;
+    justify-content: center;
+}
+.footersection h1{
+    margin:5px 10px;
+}
+#getstarted{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin:20px 0px 20px 270px;
+}
+#getstarted:hover{
+    background-color: grey;
+}

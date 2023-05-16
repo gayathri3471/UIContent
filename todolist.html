@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        input{
+            height: 20px;
+            width: 300px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            
+        }
+        .addbutton{
+            background-color: blue;
+            margin:10px;
+            padding: 10px;
+            color:white;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+        input::placeholder{
+            color:blue;
+            font-size: 15px;
+        }
+        .todolist{
+            text-align: center;
+        }
+        .task{
+            list-style-type: none;
+           
+          
+        }
+        .taskslist ul{
+            text-align: center;
+            background-color: yellow;
+           width: 550px;
+           margin: auto;
+           border-radius: 10px;
+        }
+        .addtask{
+            background-color: blueviolet;
+            width: 545px;
+            margin: auto;
+            border-radius: 10px;
+            margin:20px auto;
+        }
+        button:hover{
+            background-color: aqua;
+            color:black;
+        }
+        i{
+            background-color: blue;
+            padding: 10px;
+            font-size: 25px;
+            
+            color:white;
+            border-radius: 10px;
+            height: 30px;
+            width: 30px;
+        }
+        i:hover{
+            color:black;
+        }
+    
+    </style>
+</head>
+<body>
+  <div class="todolist">
+    <h1>To do list</h1>
+    <div class="addtask">
+        <input type="text" placeholder="Enter the task" id="taskinput">
+        <button class="addbutton" id="add">Add Task</button>
+    </div>
+
+    <div class="taskslist">
+        <h1>Added Tasks</h1>
+        <ul id="lstelements">
+            <!-- <li class="task">
+                <input type="text"  >
+                <button class="addbutton">save Task</button>
+                <i class="fa-solid fa-trash"></i>
+                
+            </li>
+             -->
+            
+
+        </ul>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="todolist.js"></script>
+</body>
+</html>

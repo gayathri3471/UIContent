@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+  <link rel="stylesheet" href="javascript.css">
+    <style>
+        .stylesetting{
+            background-color: brown;
+            color: white;
+            border:1px solid black;
+            height: 100px;
+            width: 200px;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head">Welcome all Good Morning</h1>
+
+    <h2 id="head2" >This is heading</h2>
+    <p class="para">Paragraph1</p>
+    <p class="para">Paragraph2</p>
+    <p class="para">Paragraph3</p>
+
+
+    <div id="container">
+        
+
+    </div>
+
+
+
+    <script>
+        let heading  = document.getElementById('head');
+        heading.innerHTML = "Welcome all Good Afternoon";
+
+        heading.style.color = "red";
+        heading.style.backgroundColor="yellow";
+        heading.style.display ="inline-block";
+        heading.style.height="300px";
+        heading.style.width = "400px";
+
+
+
+        let classes = document.getElementsByClassName('para');
+         
+
+        for (let i =0;i<=classes.length;i++){
+            console.log(classes[i])
+        }
+
+
+
+        let heading2 = document.getElementById('head2');
+        heading2.classList.add('stylesetting');
+
+
+
+
+       let container1  = document.getElementById('container');
+       let unorderlist = document.createElement('ul');
+       let list1 = document.createElement('li');
+       list1.textContent = "Blue";
+       unorderlist.appendChild(list1);
+       container1.appendChild(unorderlist);
+
+
+       function changeimage(){
+        
+       }
+
+
+
+
+
+       
+
+
+
+        
+
+
+
+
+
+
+    </script>
+</body>
+</html>

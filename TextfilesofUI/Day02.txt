@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags</title>
+</head>
+<body>
+    <a href="Day01Formtags.html" target="_blank">Day01 Form</a>
+      <video  controls height="400px" width="400px"  muted>
+        <source src="audio and vedeo/LookAtMe.mp4">
+        <source src="audio and vedeo/LookAtMe.mp4">
+
+      </video>
+
+      <video  src="audio and vedeo/LookAtMe.mp4"  controls height="400px" width="400px" >
+        
+
+      </video>
+
+
+
+      <audio src="audio and vedeo/CheapThrills.mp3" muted controls loop></audio>
+
+
+
+      <a href="">Day01Tags</a>
+      <a href="">Day01Formtags</a>
+
+      <iframe src="Day01Tags.html" frameborder="0" height="500px" width="500px"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/02jqbZ1OpJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
